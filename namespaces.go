@@ -24,7 +24,7 @@ var (
 	mountNamespace   = namespace{"mnt", unix.CLONE_NEWNS}
 	networkNamespace = namespace{"net", unix.CLONE_NEWNET}
 	pidNamespace     = namespace{"pid", unix.CLONE_NEWPID}
-	timeNamespace    = namespace{"time", unix.CLONE_NEWTIME}
+	//timeNamespace    = namespace{"time", unix.CLONE_NEWTIME}
 	userNamespace    = namespace{"user", unix.CLONE_NEWUSER}
 	utsNamespace     = namespace{"uts", unix.CLONE_NEWUTS}
 
